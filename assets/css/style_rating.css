@@ -1,0 +1,150 @@
+
+.rating-content{
+	position:relative;
+	margin: 2em 2em 1em 0em;
+	border: 1px solid #f2f2f2;
+	background-color:#f2f2f2;
+}
+
+.user_info{
+	
+	position:relative;
+	font-size: 12px;
+	margin: -1em 2em 1em 1em;
+	width: 20em;
+}
+
+.numeric_rate{
+	
+	position:relative;
+	margin: 1em 0em 1em 0em;
+	padding: 10pt;
+	left: 0%;
+	font-size: 15px;
+}
+
+.date_comment{
+	
+	position:relative;
+	margin: -3em 0em 0em 0em;
+	float:right;
+	width: 7em;
+	left: 0%;
+	font-size: 12px;
+}
+
+.delete_review{
+	
+	width: 1em;
+	position:relative;
+	float:right;
+	margin: -3.5em 0.3em 0em 0em;
+
+}
+
+.delete_review:hover{
+	
+	width: 1em;
+	position:relative;
+	float:right;
+	margin: -3.5em 0.3em 0em 0em;
+	color: #F77F15;
+
+}
+
+.rating{
+    top: 15%;
+    left: 0%;
+    transform: translate(-50%,-50%) rotateY(180deg);
+    display: flex;
+    margin: 2em 2em 0em -47em; 
+  
+    
+}
+
+.rating input{
+	display: none;
+
+}
+.rating label{
+	display: block;
+	cursor: pointer;
+	/*width: 50px;*/
+	width: 20px;
+	/*background: #ccc;*/
+}
+
+.rating label:before{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 20px;
+	color: #101010;
+
+}
+
+.rating label:after{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 20px;
+	color: #F77F15;
+	top: 0;	
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating input:checked ~ label:after{
+	opacity: 1;
+}
+
+.rating1{ 
+    top: 15%;
+    left: 20%;
+    transform: translate(-50%,-50%) rotateY(180deg);
+    display: flex;
+    margin: 2em 2em 0em -47em; 
+    
+}
+
+.rating1 #star1{
+	display: none;
+
+}
+.rating1 #lab{
+	display: block;
+	cursor: pointer;
+	/*width: 50px;*/
+	width: 20px;
+	/*background: #ccc;*/
+}
+
+.rating1 #lab:before{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 20px;
+	color: #101010;
+
+}
+
+.rating1 #lab:after{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 20px;
+	color: #F77F15;
+	top: 0;	
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating1 #star1:checked ~ #lab:after{
+	opacity: 1;
+}

@@ -1,0 +1,11 @@
+body{
+    background-image: url("../img/login_bg.jpg");
+    height:50em;
+}
+
+section {
+    margin-bottom:-50em;
+}
+.img-bg {
+    width:100%;
+}

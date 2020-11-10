@@ -1,0 +1,30 @@
+.side {
+    width: 20%;
+    height: 100%;
+    float:left;
+    border-right:solid 1px #cccccc;
+    padding-left: 10pt; 
+    margin-bottom:0;
+}
+.sidebar-head{
+    font-size: 10pt;
+}
+.sidebar-head label{
+    font-size: 13pt;
+}
+.part-list{
+    margin-left: -2em;
+    padding-right: 5pt;
+}
+.part-list li{
+    list-style-type: none; 
+}
+.glyph{
+    float:right;
+}
+.sidebar-content .cars-sidebar{
+    margin-top:10pt;   
+}
+.sidebar-content .parts-sidebar{
+    margin-top:10pt;   
+}
