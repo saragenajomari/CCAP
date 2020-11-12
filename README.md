@@ -14,3 +14,11 @@ Capabilities:
 2.)Client
 Capabilities:
 * Post items to sell
+
+Link of the website: https://carsandpartcs.000webhostapp.com/
+
+Account:
+
+- Admin
+Username: ccap@admin.com
+Password: admin
